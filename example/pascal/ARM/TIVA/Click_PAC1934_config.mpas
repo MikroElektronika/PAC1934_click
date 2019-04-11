@@ -1,0 +1,8 @@
+unit Click_PAC1934_config;
+
+uses Click_PAC1934_types;
+
+const
+    _PAC1934_I2C_CFG : array[1] of uint32_t = (_I2C_BITRATE_STANDARD_MODE); 
+    
+end.
